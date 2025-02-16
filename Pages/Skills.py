@@ -165,4 +165,4 @@ with st.container(border=True):
         with col_text:
             st.empty()  # Empty placeholder to center image vertically
         with col_img:
-            st.image(f"{image_path}/Github-Icon.png", width=200)
+            st.image(f"{image_path}/GitHub-Icon.png", width=200)
