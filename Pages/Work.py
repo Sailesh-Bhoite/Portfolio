@@ -6,7 +6,7 @@ works = [
         'title': "Crammer's Rule",
         'desc': "Python implementation of Crammer's rule.",
         'repo_link': "https://github.com/Sailesh-Bhoite/The-Crammers-Rule",
-        'video_link': "LinkedIn",
+        'video_link': "https://www.linkedin.com/posts/sailesh-bhoite_i-was-just-wondering-how-could-be-solving-activity-7296687229521793025-_ewe?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEgWZHsBTswwPEbC-Z3cAWUiezWgCnj6xf4",
         'demo_link': None
     },
     {
