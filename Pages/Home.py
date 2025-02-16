@@ -1,7 +1,7 @@
 import streamlit as st
 from pathlib import Path
 
-image_path = f"{Path(__file__).parent.parent}\\Icons"
+image_path = f"{Path(__file__).parent.parent}/Icons"
 
 with st.container(border=True):
     col1, col2 = st.columns(2, vertical_alignment="center")
