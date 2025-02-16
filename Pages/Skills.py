@@ -1,7 +1,7 @@
 import streamlit as st
 from pathlib import Path
 
-image_path = f"{Path(__file__).parent.parent}\\Icons"
+image_path = f"{Path(__file__).parent.parent}/Icons"
 
 st.title('My Skills')
 
@@ -15,7 +15,7 @@ with st.container(border=True):
         with c1:
             st.empty()
         with c2:
-            st.image(f"{image_path}\\Python-Icon.png", width=200)
+            st.image(f"{image_path}/Python-Icon.png", width=200)
 
     with java:
         st.write("Java (Intermediate)")
@@ -23,7 +23,7 @@ with st.container(border=True):
         with c1:
             st.empty()
         with c2:
-            st.image(f'{image_path}\\Java-Icon.png', width=200)
+            st.image(f'{image_path}/Java-Icon.png', width=200)
 
     with cpp:
         st.write("C++ (Basic)")
@@ -31,7 +31,7 @@ with st.container(border=True):
         with c1:
             st.empty()
         with c2:
-            st.image(f"{image_path}\\CPP-Icon.png", width=200)
+            st.image(f"{image_path}/CPP-Icon.png", width=200)
 
 
 with st.container(border=True):
@@ -44,7 +44,7 @@ with st.container(border=True):
         with col_text:
             st.empty()  # Empty placeholder to center image vertically
         with col_img:
-            st.image(f"{image_path}\\HTML-Icon.png", width=200)
+            st.image(f"{image_path}/HTML-Icon.png", width=200)
 
     with dj:
         st.write("Django")
@@ -52,7 +52,7 @@ with st.container(border=True):
         with col_text:
             st.empty()  # Empty placeholder to center image vertically
         with col_img:
-            st.image(f"{image_path}\\Django-Icon.png", width=200)
+            st.image(f"{image_path}/Django-Icon.png", width=200)
 
 with st.container(border=True):
     st.header('Libraries and Modules')
@@ -63,21 +63,21 @@ with st.container(border=True):
         with col_text:
             st.empty()  # Empty placeholder to center image vertically
         with col_img:
-            st.image(f"{image_path}\\Numpy-Icon.png", width=200)
+            st.image(f"{image_path}/Numpy-Icon.png", width=200)
     with pd:
         st.write("Pandas")
         col_text, col_img = st.columns([1, 10])  # Create two columns inside container
         with col_text:
             st.empty()  # Empty placeholder to center image vertically
         with col_img:
-            st.image(f"{image_path}\\Pandas-Icon.png", width=200)
+            st.image(f"{image_path}/Pandas-Icon.png", width=200)
     with plt:
         st.write("Matplotlib")
         col_text, col_img = st.columns([1, 10])  # Create two columns inside container
         with col_text:
             st.empty()  # Empty placeholder to center image vertically
         with col_img:
-            st.image(f"{image_path}\\Matplotlib-Icon.png", width=200)
+            st.image(f"{image_path}/Matplotlib-Icon.png", width=200)
 
     tk, stream = st.columns([1, 1], border=True)
     with tk:
@@ -86,7 +86,7 @@ with st.container(border=True):
         with col_text:
             st.empty()  # Empty placeholder to center image vertically
         with col_img:
-            st.image(f"{image_path}\\Tkinter-Icon.png", width=200)
+            st.image(f"{image_path}/Tkinter-Icon.png", width=200)
 
     with stream:
         st.write("Streamlit")
@@ -94,7 +94,7 @@ with st.container(border=True):
         with col_text:
             st.empty()  # Empty placeholder to center image vertically
         with col_img:
-            st.image(f"{image_path}\\Streamlit-Icon.png", width=200)
+            st.image(f"{image_path}/Streamlit-Icon.png", width=200)
 
 
 with st.container(border=True):
@@ -106,7 +106,7 @@ with st.container(border=True):
         with col_text:
             st.empty()  # Empty placeholder to center image vertically
         with col_img:
-            st.image(f"{image_path}\\MySQL-Icon.png", width=200)
+            st.image(f"{image_path}/MySQL-Icon.png", width=200)
 
     with db:
         st.write("MongoDB")
@@ -114,7 +114,7 @@ with st.container(border=True):
         with col_text:
             st.empty()  # Empty placeholder to center image vertically
         with col_img:
-            st.image(f"{image_path}\\MongoDB-Icon.png", width=200)
+            st.image(f"{image_path}/MongoDB-Icon.png", width=200)
 
 
 with st.container(border=True):
@@ -126,7 +126,7 @@ with st.container(border=True):
         with col_text:
             st.empty()  # Empty placeholder to center image vertically
         with col_img:
-            st.image(f"{image_path}\\Pycharm-Icon.png", width=200)
+            st.image(f"{image_path}/Pycharm-Icon.png", width=200)
 
     with intellij:
         st.write("Intellij Idea")
@@ -134,7 +134,7 @@ with st.container(border=True):
         with col_text:
             st.empty()  # Empty placeholder to center image vertically
         with col_img:
-            st.image(f"{image_path}\\Intellij-Icon.png", width=200)
+            st.image(f"{image_path}/Intellij-Icon.png", width=200)
 
     with jupyter:
         st.write("Jupyter Notebook")
@@ -142,7 +142,7 @@ with st.container(border=True):
         with col_text:
             st.empty()  # Empty placeholder to center image vertically
         with col_img:
-            st.image(f"{image_path}\\Jupyter-Icon.png", width=200)
+            st.image(f"{image_path}/Jupyter-Icon.png", width=200)
 
     cmd, git, github = st.columns([1, 1, 1], border=True)
     with cmd:
@@ -151,18 +151,18 @@ with st.container(border=True):
         with col_text:
             st.empty()  # Empty placeholder to center image vertically
         with col_img:
-            st.image(f"{image_path}\\Cmd-Icon.png", width=200)
+            st.image(f"{image_path}/Cmd-Icon.png", width=200)
     with git:
         st.write("Git")
         col_text, col_img = st.columns([1, 10])  # Create two columns inside container
         with col_text:
             st.empty()  # Empty placeholder to center image vertically
         with col_img:
-            st.image(f"{image_path}\\Git-Icon.png", width=200)
+            st.image(f"{image_path}/Git-Icon.png", width=200)
     with github:
         st.write("GitHub")
         col_text, col_img = st.columns([1, 10])  # Create two columns inside container
         with col_text:
             st.empty()  # Empty placeholder to center image vertically
         with col_img:
-            st.image(f"{image_path}\\Github-Icon.png", width=200)
+            st.image(f"{image_path}/Github-Icon.png", width=200)

@@ -1,13 +1,13 @@
 import streamlit as st
 from pathlib import Path
 
-image_path = f"{Path(__file__).parent.parent}\\Icons"
+image_path = f"{Path(__file__).parent.parent}/Icons"
 
 st.title('My Education')
 book_stack, content = st.columns([1, 1], vertical_alignment="center")
 
 with book_stack:
-    st.image(f"{image_path}\\BookStack.png")
+    st.image(f"{image_path}/BookStack.png")
 
 with content:
     with st.container(border=True):
