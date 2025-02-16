@@ -63,7 +63,7 @@ with st.container(border=True):
         with col_text:
             st.empty()  # Empty placeholder to center image vertically
         with col_img:
-            st.image(f"{image_path}/Numpy-Icon.png")
+            st.image(f"{image_path}/Numpy-Icon.png", width=200)
     with pd:
         st.write("Pandas")
         col_text, col_img = st.columns([1, 10])  # Create two columns inside container
