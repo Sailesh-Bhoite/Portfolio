@@ -10,3 +10,6 @@ with st.container(border=True):
         st.markdown("<h5>I'm on a journey to become a data scientist, fueled by a love for Python and a desire to build impactful applications. As I continue to discover and develop my skills, I am excited to take on new challenges and contribute to meaningful projects. Welcome to my portfolio, where I showcase my work, achievements, and ongoing exploration in the field of data science.</h5>", unsafe_allow_html=True)
     with col2:
         st.image(f"{image_path}\\Profile.jpg")
+
+with st.container(border=True):
+    st.image(f"{image_path}\\DS_Img.jpg")
